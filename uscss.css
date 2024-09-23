@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #2a2a72; /* Gradient background example */
+    background: linear-gradient(to right, #2a2a72, #009ffd);
+    color: #cf0b0b;
+    padding: 40px 0;
+  
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ae0e0e;
+    text-decoration: none;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #2a2a72; /* Gradient background example */
+    background: linear-gradient(to right, #2a2a72, #009ffd);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+   
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2a2a72;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.features {
+    padding: 80px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.feature-item {
+    margin-bottom: 40px;
+}
+
+.feature-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 18px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+#current-time, .quotes{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: larger;
+}
+footer {
+    background: #2a2a72;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
